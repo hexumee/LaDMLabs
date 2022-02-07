@@ -1,0 +1,126 @@
+div {
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-family: "Calibri", serif;
+    background-color: #4169e1;
+    padding: 10px;
+    color: white;
+}
+
+body {
+    margin: 0;
+    background-color: #292929;
+    height: 100%;
+}
+
+label {
+    margin-right: 5px;
+    font-size: 20px;
+    font-family: "Calibri", serif;
+    color: white;
+}
+
+#commit {
+    font-size: 18px;
+    margin-left: 10px;
+    border-width: 0;
+    border-radius: 5px;
+    background: #ffff80;
+    color: black;
+    padding: 5px 10px 5px 10px;
+}
+
+#commit:hover {
+    background: #ffffb0;
+}
+
+#commit:focus {
+    background: #ffff40;
+}
+
+#first {
+    width: 512px;
+    font-size: 18px;
+    margin-right: 32px;
+    margin-left: 5px;
+}
+
+#second {
+    width: 512px;
+    font-size: 18px;
+    margin-right: 32px;
+    margin-left: 5px;
+}
+
+.f {
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.f .fif {
+    display: flex;
+    align-items: baseline;
+}
+
+.f .fcb {
+    display: flex;
+    align-items: center;
+}
+
+.s {
+    margin-bottom: 10px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.s .sif {
+    display: flex;
+    align-items: baseline;
+}
+
+.s .scb {
+    display: flex;
+    align-items: center;
+}
+
+.r {
+    margin-bottom: 30px;
+    padding-left: 10px;
+}
+
+.radio {
+    margin-bottom: 30px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.radio input {
+    margin: 0 5px 0 0;
+    width: 18px;
+    height: 18px;
+    accent-color: #ffff80;
+}
+
+.radio p {
+    margin: 5px 0 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+.f [type=checkbox] {
+    margin-right: 5px;
+    width: 18px;
+    height: 18px;
+    accent-color: #ffff80;
+}
+
+.s [type=checkbox] {
+    margin-right: 5px;
+    width: 18px;
+    height: 18px;
+    accent-color: #ffff80;
+}
