@@ -1,46 +1,46 @@
 <html lang="ru">
-    <head>
-        <meta charset="utf-8"/>
-        <title>Лабораторная работа #1</title>
-        <link href="style.css" rel="stylesheet"/>
-        <script src="mod.js"></script>
-    </head>
-    <body>
-        <h1>Лабораторная работа #1</h1>
-        <table>
-        	<tr>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Лабораторная работа #1</title>
+		<link href="styles/style.css" rel="stylesheet"/>
+		<script src="scripts/mod.js"></script>
+	</head>
+	<body>
+		<h1>Лабораторная работа #1</h1>
+		<table>
+			<tr>
 				<div class="f">
 					<div class="fif">
-					    <label for="first">Первое множество: </label><input id="first" type="text">
+						<label for="first">Первое множество: </label><input id="first" type="text">
 					</div>
 					<div class="fcb">
-					    <input id="cb0" name="empty0" type="checkbox"><label for="cb0">Пустое</label>
+						<input id="cb0" name="empty0" type="checkbox"><label for="cb0">Пустое</label>
 					</div>
 				</div>
-		    </tr>
-		    <tr>
-		    	<td>
+			</tr>
+			<tr>
+				<td>
 				<div class="s">
 					<div class="sif">
-					    <label for="second">Второе множество: </label><input id="second" type="text">
+						<label for="second">Второе множество: </label><input id="second" type="text">
 					</div>
 					<div class="scb">
-					    <input id="cb1" name="empty1" type="checkbox"><label for="cb1">Пустое</label>
+						<input id="cb1" name="empty1" type="checkbox"><label for="cb1">Пустое</label>
 					</div>
-				</div>
+					</div>
 				</td>
 			</tr>
-        </table>
-        <div id="rb" class="radio">
-            <p><input id="v0" name="operation" type="radio" value="union"><label for="v0">Объединение</label></p>
-            <p><input id="v1" name="operation" type="radio" value="intersection"><label for="v1">Пересечение</label></p>
-            <p><input id="v2" name="operation" type="radio" value="addition_a"><label for="v2">Дополнение (A \ B)</label></p>
-            <p><input id="v3" name="operation" type="radio" value="addition_b"><label for="v3">Дополнение (B \ A)</label></p>
-            <p><input id="v4" name="operation" type="radio" value="sym_diff"><label for="v4">Симметрическая разность</label></p>
-        </div>
-        <div class="r">                                                                  
-            <label>Результат: </label><label id="result"></label>
-        </div>
-        <button id="commit" onclick="commit();">Вычислить</button>
-    </body>
+		</table>
+		<div id="rb" class="radio">
+			<p><input id="v0" name="operation" type="radio" value="union"><label for="v0">Объединение</label></p>
+			<p><input id="v1" name="operation" type="radio" value="intersection"><label for="v1">Пересечение</label></p>
+			<p><input id="v2" name="operation" type="radio" value="addition_a"><label for="v2">Дополнение (A \ B)</label></p>
+			<p><input id="v3" name="operation" type="radio" value="addition_b"><label for="v3">Дополнение (B \ A)</label></p>
+			<p><input id="v4" name="operation" type="radio" value="sym_diff"><label for="v4">Симметрическая разность</label></p>
+		</div>
+		<div class="r">                                                                  
+			<label>Результат: </label><label id="result"></label>
+		</div>
+		<button id="commit" onclick="commit();">Вычислить</button>
+	</body>
 </html>
