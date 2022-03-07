@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #292929;
+    height: 100%;
+}
+
+h1 {
+    font-family: "Calibri", serif;
+    background-color: #5fa416;
+    padding: 10px;
+    color: white;
+}
+
+button {
+    font-size: 18px;
+    margin-left: 10px;
+    border-width: 0;
+    border-radius: 5px;
+    background: #4865ad;
+    color: white;
+    padding: 5px 20px 5px 20px;
+}
+
+button:hover {
+    background: #4f85ad;
+}
+
+button:active {
+    background: #4f65fd;
+}
+
+#commit {
+    margin-right: 32px;
+}
+
+div {
+    padding-left: 10px;
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 10px;
+}
+
+.cv {
+    margin-top: 32px;
+}
+
+label {
+    margin-right: 5px;
+    font-size: 20px;
+    font-family: "Calibri", serif;
+    color: white;
+}
+
+#rf {
+    width: 512px;
+    font-size: 18px;
+    margin-right: 32px;
+    margin-left: 5px;
+}
+
+p {
+    font-size: 20px;
+    font-family: "Calibri", serif;
+    color: white;
+}
+
+.rv {
+    display: flex;
+    flex-direction: column;
+}

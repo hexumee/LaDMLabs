@@ -1,0 +1,27 @@
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Лабораторная работа #2</title>
+        <link href="styles/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Лабораторная работа #2</h1>
+        <div class="if">
+            <label for="rf">Ввод элементов: </label><input id="rf" type="text" placeholder="value0 value1">
+        </div>
+        <div class="prv">
+            <label>Получаемое отношение: </label><label id="pre">{}</label>
+        </div>
+        <div class="cv">
+            <button id="commit" onclick="analyze();">Анализ</button>
+            <button id="add" onclick="add();">Добавить</button>
+            <button id="clear" onclick="clearAll();">Очистить</button>
+            <button id="clearLast" onclick="clearLast();">Удалить последний</button>
+        </div>
+        <div class="rv">
+            <p id="resultMatrix"></p>
+            <p id="result"></p>
+        </div>
+    </body>
+    <script src="scripts/mod.js"></script>
+</html>
