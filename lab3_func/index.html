@@ -7,16 +7,18 @@
     <body>
         <h1>Лабораторная работа #3</h1>
         <div class="if">
-            <label for="rf">Ввод элементов: </label><input id="rf" type="text" placeholder="value0 value1">
-        </div>
-        <div class="prv">
-            <label>Получаемое отношение: </label><label id="pre">{}</label>
+            <div>
+                <label for="rf">Ввод элементов A: </label><input id="rf" type="text" placeholder="value0 value1 ...">
+            </div>
+            <div>
+                <label for="sf">Ввод элементов B: </label><input id="sf" type="text" placeholder="value0 value1 ...">
+            </div>
+            <div id="rel">
+                <label for="tf">Ввод элементов отношения: </label><input id="tf" type="text" placeholder="value0 value1; ...">
+            </div>
         </div>
         <div class="cv">
             <button id="commit" onclick="analyze();">Анализ</button>
-            <button id="add" onclick="add();">Добавить</button>
-            <button id="clear" onclick="clearAll();">Очистить</button>
-            <button id="clearLast" onclick="clearLast();">Удалить последний</button>
         </div>
         <div class="rv">
             <p id="resultMatrix"></p>

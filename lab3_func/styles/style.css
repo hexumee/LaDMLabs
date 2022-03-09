@@ -35,7 +35,7 @@ button:active {
 }
 
 div {
-    padding-left: 10px;
+    padding-left: 5px;
     display: flex;
     align-items: baseline;
     margin-bottom: 10px;
@@ -52,7 +52,7 @@ label {
     color: white;
 }
 
-#rf {
+input {
     width: 512px;
     font-size: 18px;
     margin-right: 32px;
@@ -66,6 +66,16 @@ p {
 }
 
 .rv {
+    margin-left: 10px;
     display: flex;
     flex-direction: column;
+}
+
+.if {
+    display: flex;
+    flex-direction: column;
+}
+
+#rel {
+    margin-top: 16px;
 }
