@@ -113,6 +113,7 @@ function analyze() {
             }
         }
         if (!functionalR) break;
+        if (c === 0) functionalR = false;
     }
 
     for (let i = 0; i < relMatrix[0].length; i++) {
@@ -125,8 +126,9 @@ function analyze() {
                 functionalC = false;
                 break;
             }
-            if (!functionalC) break;
         }
+        if (!functionalC) break;
+        if (c === 0) functionalC = false;
     }
 
     document.getElementById("result").innerHTML = `Данное отношение ${functionalR ? "" : "не "}является функцией A к B<br>Данное отношение ${functionalC ? "" : "не "}является функцией B к A`;
