@@ -77,9 +77,9 @@ function validate(v0, v1, v2) {
 // инициализация матрицы
 function initMatrix() {
     relMatrix = [];
-    for (let i = 0; i < (elements_a.length > elements_b.length ? elements_a.length : elements_b.length); i++) {
+    for (let i = 0; i < elements_a.length; i++) {
         let row = [];
-        for (let j = 0; j < (elements_a.length > elements_b.length ? elements_a.length : elements_b.length); j++) {
+        for (let j = 0; j < elements_b.length; j++) {
             row.push(0);
         }
         relMatrix.push(row);
