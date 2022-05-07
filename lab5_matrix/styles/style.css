@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #292929;
+    height: 100%;
+}
+
+h1 {
+    font-family: "Calibri", serif;
+    background-color: #d76e00;
+    padding: 10px;
+    color: white;
+}
+
+div {
+    padding-left: 5px;
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 10px;
+}
+
+label {
+    margin-right: 5px;
+    font-size: 20px;
+    font-family: "Calibri", serif;
+    color: white;
+    align-self: center;
+}
+
+input {
+    width: 384px;
+    font-size: 18px;
+    margin-right: 32px;
+    margin-left: 5px;
+}
+
+p {
+    font-size: 20px;
+    font-family: "Calibri", serif;
+    color: white;
+}
+
+.header {
+    font-size: 24px;
+    margin-right: 16px;
+}
+
+#inputView {
+    display: flex;
+    flex-direction: column;
+}
+
+#graphView {
+    margin-bottom: 24px;
+}
+
+#txtAr {
+    width: 545px;
+    height: 192px;
+    font-size: 16px;
+}
+
+#commitView {
+    margin-top: 32px;
+}
+
+#commit {
+    font-size: 18px;
+    margin-left: 4px;
+    margin-right: 32px;
+    border-width: 0;
+    border-radius: 5px;
+    background: #0069d7;
+    color: white;
+    padding: 5px 20px 5px 20px;
+}
+
+#commit:hover {
+    background: #3d9bff;
+}
+
+#commit:active {
+    background: #003670;
+}
+
+#resultView {
+    margin-left: 10px;
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+}
+
+#matrixView {
+    display: flex;
+    flex-direction: column;
+}
+
+#accMtx {
+    color: white;
+    text-align: center;
+    border-spacing: 8px;
+    font-size: 22px;
+    font-family: "Courier New", serif;
+}
+
+#accMtx td {
+    width: 32px;
+    height: 32px;
+}
